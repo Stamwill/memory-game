@@ -6,9 +6,9 @@ const easy = [1, 2, 3, 4, 5, 6];
 const intermediate = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
 const CardBlock = () => {
-  const [easyDiff, setEasy] = React.useState(null);
-  const [intermediateDiff, setIntermediate] = React.useState(null);
-  const [impossibleDiff, setImpossible] = React.useState(null);
+  const [easyDiff, setEasy] = React.useState(false);
+  const [intermediateDiff, setIntermediate] = React.useState(false);
+  const [impossibleDiff, setImpossible] = React.useState(false);
 
   const handleEasy = () => {
     setIntermediate(false);
