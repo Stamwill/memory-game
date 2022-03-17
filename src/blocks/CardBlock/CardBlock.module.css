@@ -1,4 +1,23 @@
 .root {
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  border: none;
+  background-color: palegreen;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
