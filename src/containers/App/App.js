@@ -5,7 +5,7 @@ import classes from "./App.module.css";
 function App() {
   return (
     <div className={classes.root}>
-      <h1 className={classes.header}>Please check how good your memory is!</h1>
+      <h1 className={classes.header}>Check how good your memory is!</h1>
 
       <CardBlock />
     </div>
