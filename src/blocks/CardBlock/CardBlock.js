@@ -20,7 +20,6 @@ const CardBlock = () => {
     setIntermediate(true);
   };
 
-  console.log(easyDiff);
   return (
     <section className={classes.root}>
       <div className={classes.buttons}>
@@ -28,7 +27,7 @@ const CardBlock = () => {
           Easy
         </button>
         <button className={classes.button} onClick={handleIntermediate}>
-          Intermediate{" "}
+          Intermediate
         </button>
       </div>
       <div className={classes.cards}>
